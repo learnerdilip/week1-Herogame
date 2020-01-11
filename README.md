@@ -1,5 +1,5 @@
 #My(Dilip) comments after the attempting the assignement:
-Hello, Codaisseur Teachers, It took me some time to figure out a few things on the assignment and specially how the testing engine works. I think it caused me some trouble while i tried to check my code. waiting for some feedback and the further learning on how i did. 
+Hello, Codaisseur Teachers, It took me some time to figure out a few things on the assignment and specially how the testing engine works. I think it caused me some trouble while i tried to check my code. waiting for some feedback on how I did and  learning further
 
 # Beginner Bootcamp Homework
 
