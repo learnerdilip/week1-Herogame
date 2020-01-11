@@ -1,0 +1,49 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Mocha Tests</title>
+    <link href="lib/mocha.css" rel="stylesheet" />
+    <link href="./index.css" rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <!-- 👍 YOUR HTML HERE 👍 -->
+  <h1>The Hero Game</h1>
+  <h2 id="getName">  </h2>
+  <section id="battleGround">
+    <img id="inn" src="https://www.pngkey.com/png/detail/215-2156296_png-file-svg-hotel-vector-icon-png.png" alt="Hero's Hotel">
+    <img id="health" src="https://png.pngtree.com/element_our/png_detail/20181205/health-sign-vector-icon-png_260749.jpg" alt="full health">
+    <img id="dagger" src="https://clipart4biz.com/images/knife-transparent-army-2.png" alt="Hero's Dagger">
+    <img id="bag" src="https://thumbs.dreamstime.com/b/luggage-large-army-camouflage-patterned-duffel-bag-54628385.jpg" alt="Hero bag">
+    <img id="enemy" src="https://static4.depositphotos.com/1020293/334/v/950/depositphotos_3347776-stock-illustration-vector-demon.jpg" alt="Enemy">
+  </section>
+
+  <h3>Your Hero's Statistics</h3>
+  <section id="stats">
+    <label for="heroName">Name:</label>
+    <div id="heroName">Don Corleone</div>
+    <label for="healthStat">Current Health:</label>
+    <div id="healthStat">10</div>
+    <label for="bagContent">Bags Content:</label>
+    <div id="bagContent">In the Bag</div>
+  </section>
+
+
+
+  <!-- I RECOMMEND YOU LEAVE THE REST UNTOUCHED -->
+  <button onclick="mocha.checkLeaks(); mocha.run();">Run the tests!</button>
+
+  <div id="mocha">
+  <!-- MOCHA TEST FEEDBACK WILL BE RENDERED HERE -->
+  </div>
+
+  <script src="lib/chai.js"></script>
+  <script src="lib/mocha.js"></script>
+  <script src="lib/sinon.js"></script>
+  <script>mocha.setup('bdd')</script>
+  <script src="YOUR_JAVASCRIPT_HERE.js"></script>
+  <script src="lib/game_logic.test.js"></script>
+
+</body>
+</html>
